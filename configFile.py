@@ -301,7 +301,8 @@ process.ALCARECOStreamSiStripCalMinBiasOutPath = cms.EndPath(process.ALCARECOStr
 process.ALCARECOStreamTkAlMinBiasOutPath = cms.EndPath(process.ALCARECOStreamTkAlMinBias)
 
 # Schedule definition
-process.schedule = cms.Schedule(process.raw2digi_step,process.L1Reco_step,process.reconstruction_step,process.pathALCARECOSiStripCalMinBias,process.pathALCARECOTkAlMinBias,process.user_step,process.dqmoffline_step,process.dqmoffline_1_step,process.dqmoffline_2_step,process.dqmoffline_3_step,process.dqmoffline_4_step,process.dqmoffline_5_step,process.dqmoffline_6_step,process.dqmoffline_7_step,process.endjob_step,process.RECOoutput_step,process.AODoutput_step,process.DQMoutput_step,process.ALCARECOStreamSiStripCalMinBiasOutPath,process.ALCARECOStreamTkAlMinBiasOutPath)
+#process.schedule = cms.Schedule(process.raw2digi_step,process.L1Reco_step,process.reconstruction_step,process.pathALCARECOSiStripCalMinBias,process.pathALCARECOTkAlMinBias,process.user_step,process.dqmoffline_step,process.dqmoffline_1_step,process.dqmoffline_2_step,process.dqmoffline_3_step,process.dqmoffline_4_step,process.dqmoffline_5_step,process.dqmoffline_6_step,process.dqmoffline_7_step,process.endjob_step,process.RECOoutput_step,process.AODoutput_step,process.DQMoutput_step,process.ALCARECOStreamSiStripCalMinBiasOutPath,process.ALCARECOStreamTkAlMinBiasOutPath)
+process.schedule = cms.Schedule(process.raw2digi_step,process.L1Reco_step,process.reconstruction_step,process.AODoutput_step)
 
 # customisation of the process.
 
