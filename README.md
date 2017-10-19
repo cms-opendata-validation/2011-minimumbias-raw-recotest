@@ -1,4 +1,4 @@
-# recotest
+# Validation code for reprocessing AOD from 2011 MinimumBias RAW sample
 Run this test in CMS Open Data VM [http://opendata.cern.ch/VM/CMS/2011]
 ```
 cmsrel CMSSW_5_3_32
