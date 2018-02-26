@@ -6,7 +6,7 @@ cd CMSSW_5_3_32/src
 cmsenv
 mkdir WorkDir
 cd WorkDir
-git clone https://github.com/cms-opendata-validation/recotest.git
+git clone git://github.com/cms-opendata-validation/recotest.git
 
 cd recotest
 ln -sf /cvmfs/cms-opendata-conddb.cern.ch/FT_53_LV5_AN1_RUNA FT_53_LV5_AN1
